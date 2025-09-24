@@ -5,7 +5,7 @@ import { useTodos } from "@/hooks/useTodos";
 export default function TodoList() {
   const { todos, isLoading, toggleTodo, deleteTodo } = useTodos();
 
-  if (isLoading) return <p>Loading...</p>;
+  if (isLoading) return <p className=" mt-4">Loading...</p>;
 
   return (
     <ul className="mt-6 space-y-2">

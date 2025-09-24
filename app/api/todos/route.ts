@@ -3,6 +3,7 @@ import { NextResponse } from "next/server";
 let todos = [
   { id: "1", title: "Learn Next.js", completed: false },
   { id: "2", title: "Integrate React Query", completed: false },
+  { id: "3", title: "Deploy to Vercel", completed: false },
 ];
 
 export async function GET() {
