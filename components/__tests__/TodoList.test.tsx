@@ -7,7 +7,6 @@ import { useTodos } from '@/hooks/useTodos'
 vi.mock('@/hooks/useTodos')
 const mockUseTodos = vi.mocked(useTodos)
 
-
 // Helper function to create mock mutation objects
 const createMockMutation = () => ({
   mutate: vi.fn(),
